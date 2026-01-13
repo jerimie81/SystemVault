@@ -1,0 +1,10 @@
+/.gradle/
+/local.properties
+/keystore/*.jks
+/keystore.properties
+/build/
+/.idea/
+*.iml
+/.jdk/
+OpenJDK17U-jdk_x64_linux_hotspot.tar.gz
+SystemVault_overview.odt

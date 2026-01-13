@@ -1,0 +1,8 @@
+id=systemvault
+name=SystemVault
+version=0.1.0
+versionCode=1
+author=redrum
+# This is a template module; place the signed APK at system/app/SystemVault/SystemVault.apk
+
+description=SystemVault systemless installer (template)
