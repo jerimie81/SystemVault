@@ -6,6 +6,8 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("com.google.dagger.hilt.android")
     kotlin("kapt")
+    id("com.google.gms.google-services")
+    id("com.google.firebase.crashlytics")
 }
 
 android {
@@ -74,6 +76,7 @@ kapt {
 }
 
 dependencies {
+    implementation("com.google.firebase:firebase-crashlytics:20.0.3")
     val composeBom = platform("androidx.compose:compose-bom:2024.02.01")
     implementation(composeBom)
     androidTestImplementation(composeBom)
